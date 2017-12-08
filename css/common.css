@@ -1,0 +1,81 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(/fonts/2bccb025.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+
+html, body{font-family:"Open Sans", Helvetica, sans-serif;margin:0;padding:0;font-size:14px;}
+a{text-decoration: none;color:blue;}
+a:hover{text-decoration: underline;}
+.fl_l{float:left;}
+.fl_r{float:right;}
+.head{border-bottom:1px solid #DDD;height:34px;line-height:32px;padding:0 4px;}
+  .head-link{float:left;padding:0 11px;}
+  .head-link:hover{border-bottom:2px solid blue;}
+.footer{border-top:1px solid #DDD;text-align: center;}
+
+
+
+.gray-layer{position:absolute;top:0;left:0;right:0;bottom:0;background-color:#000;opacity:0.31;z-index:11;}
+.background-img-layer{position:absolute;top:0;left:0;right:0;bottom:0;background-image:url('/images/bugatti-chiron-at-the-quail.jpg');background-size:cover;background-position:0 64%;z-index:9;}
+.flex-block{position:relative;min-height:270px;}
+.body-layer{z-index:14;position:relative;color:#FFF;}
+.flex-block-wrap{max-width:57%;margin:0 auto;padding-top:71px;}
+.flex-block-wrap-title{font-size:21px;padding-bottom:14px;}
+.flex-block-wrap-body{font-size:17px;}
+.white-button{border:1px solid #FFF;background-color:transparent;padding:4px 7px 3px 7px;border-radius:2px;color:#FFF;font-weight:bold;font-size:11px;cursor:pointer;}
+.white-button:hover{background-color:#FFF;color:#000!important;}
